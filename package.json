@@ -1,0 +1,25 @@
+{
+  "name": "stock-viewer",
+  "version": "0.0.1",
+  "description": "http://www.freecodecamp.com/challenges/chart-the-stock-market",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noinkling/stock-viewer.git"
+  },
+  "author": "Malcolm McKeown",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noinkling/stock-viewer/issues"
+  },
+  "homepage": "https://github.com/noinkling/stock-viewer#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "socket.io": "^1.4.6"
+  }
+}
